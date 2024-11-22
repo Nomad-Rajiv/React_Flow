@@ -2,8 +2,7 @@ import { ReactFlow, Background, Controls, Panel, applyNodeChanges, applyEdgeChan
 import 'reactflow/dist/style.css';
 import './App.css'
 import { useCallback, useState } from 'react';
-
-
+import DnDFlow from './DnDFlow/DnDFlow'
 
 function App() {
   
@@ -11,7 +10,7 @@ function App() {
   return (
     
     <>
-    <h1>Hello world</h1>
+    <DnDFlow />
     </>
   )
 }
